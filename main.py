@@ -10,7 +10,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.painter = False
-        self.setup_Ui(self)
+        self.setupUi(self)
         self.pushButton.clicked.connect(self.run)
 
     def run(self):
